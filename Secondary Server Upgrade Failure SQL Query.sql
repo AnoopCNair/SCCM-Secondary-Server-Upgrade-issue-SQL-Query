@@ -1,0 +1,1 @@
+select * from SC_SiteDefinition_Property where Name = 'SiteGUID' and sitenumber in (select  ID from ServerData where  sitecode = 'DK2')
